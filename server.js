@@ -29,6 +29,6 @@ socketHandler(io);
 
 const PORT = process.env.PORT || 5000;
 const LOCAL_IP = "192.168.17.110"; // Replace with your actual local IP
-server.listen(PORT, LOCAL_IP, () =>
-  console.log(`Server running on http://${LOCAL_IP}:${PORT}`)
+server.listen(PORT, "0.0.0.0", () =>
+  console.log(`Server running on http://0.0.0.0:${PORT}`)
 );
