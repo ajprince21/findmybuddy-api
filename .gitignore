@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Environment variables file
+.env
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+.log
+
+# Optional: Ignore the coverage directory for tests
+coverage/
+
+# Build output
+dist/
+build/
+
+# Optional: Ignore the public directory (if applicable)
+public/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test output
+test-results/
