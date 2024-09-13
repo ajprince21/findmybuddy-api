@@ -30,7 +30,7 @@ app.use("/api/feeds", feedRoutes);
 socketHandler(io);
 
 const PORT = process.env.PORT || 5000;
-const LOCAL_IP = "0.0.0.0"; // Replace with your actual local IP
+const LOCAL_IP = "0.0.0.0";
 server.listen(PORT, LOCAL_IP, () =>
   console.log(`Server running on http://${LOCAL_IP}:${PORT}`)
 );
